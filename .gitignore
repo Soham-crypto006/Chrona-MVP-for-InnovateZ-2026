@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.env*
+.venv/
+venv/
+*.log
+.DS_Store
+backend/qdrant_storage/
+backend/database.py.save
+Chrona-app/project_tree.txt
+Chrona-app/update_dashboard.js
+Chrona-app/AGENTS.md
