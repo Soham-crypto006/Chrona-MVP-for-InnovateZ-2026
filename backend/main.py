@@ -67,7 +67,7 @@ app = FastAPI(
 )
 
 # --- CORS Middleware Configuration ---
-origins = [os.getenv("FRONTEND_URL", ""),
+origins = ["https://chrona-mvp-for-innovate-z-git-33bc4b-soham-crypto006s-projects.vercel.app",os.getenv("FRONTEND_URL", ""),
     "http://localhost:3000",
     "http://localhost:3002",
 ]
