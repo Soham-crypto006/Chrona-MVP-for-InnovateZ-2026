@@ -223,3 +223,4 @@ Mock data fallbacks exist in `Chrona-app/lib/mock-data.ts` and are used **only**
 | POST | `/api/remediation/{id}/execute` | Execute remediation action |
 | POST | `/api/query/parse` | Parse natural language query (Anthropic) |
 | GET | `/api/demo/reset` | Reset database to seeded demo state |
+| GET | `/api/demo/reset` | Reset database to seeded demo state |
