@@ -6,10 +6,9 @@ Chrona monitors the knowledge bases powering AI agents, detecting when documents
 
 When an AI agent retrieves a stale or outdated document chunk, it may give wrong answers to users. Chrona tracks every document, chunk, vector embedding, and agent retrieval in real time, scores compliance risk across departments and regulatory frameworks (EU AI Act, HIPAA, SOC 2, ISO 27001), and gives compliance teams a dashboard to detect, investigate, and remediate knowledge drift before it becomes a liability.
 
-## Live Demo
+## Live Deployment Link
 
-> Frontend: [Add Vercel URL here after deployment]
-> Backend API: [Add Railway URL here after deployment]
+https://chrona-mvp-for-innovate-z-git-33bc4b-soham-crypto006s-projects.vercel.app/lineage
 
 ## Core Features
 
