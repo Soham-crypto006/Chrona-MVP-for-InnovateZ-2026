@@ -8,7 +8,8 @@ When an AI agent retrieves a stale or outdated document chunk, it may give wrong
 
 ## Live Deployment Link
 
-https://chrona-mvp-for-innovate-z-git-33bc4b-soham-crypto006s-projects.vercel.app/lineage
+Live Application (Frontend): https://chrona-mvp-for-innovate-z-git-33bc4b-soham-crypto006s-projects.vercel.app/lineage
+Backend API: https://chrona-mvp-for-innovatez-2026.onrender.com
 
 ## Core Features
 
@@ -157,7 +158,7 @@ Open `http://localhost:3000`
 
 ## Environment Variables Reference
 
-### Backend (required)
+### Backend 
 | Variable | Description |
 |----------|-------------|
 | `DATABASE_URL` | Supabase PostgreSQL connection string |
@@ -166,10 +167,6 @@ Open `http://localhost:3000`
 | `QDRANT_API_KEY` | Qdrant API key |
 | `ANTHROPIC_API_KEY` | Anthropic API key (for command bar) |
 | `ENCRYPTION_KEY` | Fernet key for encrypting stored source credentials |
-
-### Backend (optional)
-| Variable | Description |
-|----------|-------------|
 | `OPENAI_API_KEY` | OpenAI key for real embeddings (runs in mock mode without it) |
 | `GROQ_API_KEY` | Groq API key (alternative LLM) |
 | `NOTION_API_KEY` | Notion connector |
@@ -178,7 +175,7 @@ Open `http://localhost:3000`
 ### Frontend
 | Variable | Description |
 |----------|-------------|
-| `NEXT_PUBLIC_API_URL` | Backend API base URL |
+| `NEXT_PUBLIC_API_URL` | Backend API |
 
 ## Sample / Mock Data
 
