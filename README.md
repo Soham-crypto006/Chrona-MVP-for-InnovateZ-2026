@@ -8,7 +8,8 @@ When an AI agent retrieves a stale or outdated document chunk, it may give wrong
 
 ## Live Deployment Link
 
-https://chrona-mvp-for-innovate-z-git-33bc4b-soham-crypto006s-projects.vercel.app/lineage
+Live Deployment (Frontend): https://chrona-mvp-for-innovate-z-git-33bc4b-soham-crypto006s-projects.vercel.app/lineage
+Live Backend API: https://chrona-mvp-for-innovatez-2026.onrender.com
 
 ## Core Features
 
