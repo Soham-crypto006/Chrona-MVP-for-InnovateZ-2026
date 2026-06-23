@@ -66,6 +66,18 @@ app = FastAPI(
     lifespan=lifespan
 )
 
+@app.get("/")
+async def root():
+    return {
+        "name": "Chrona API",
+        "version": "1.0.0",
+        "status": "live",
+        "description": "AI Knowledge Compliance Platform — Version-Aware Knowledge Governance Engine",
+        "docs": "/docs",
+        "endpoints": "/api/dashboard/stats"
+    }
+
+
 # --- CORS Middleware Configuration ---
 origins = ["https://chrona-mvp-for-innovate-z-git-33bc4b-soham-crypto006s-projects.vercel.app",os.getenv("FRONTEND_URL", ""),
     "http://localhost:3000",
