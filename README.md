@@ -159,7 +159,7 @@ Open `http://localhost:3000`
 
 ## Environment Variables Reference
 
-### Backend (required)
+### Backend 
 | Variable | Description |
 |----------|-------------|
 | `DATABASE_URL` | Supabase PostgreSQL connection string |
@@ -168,10 +168,6 @@ Open `http://localhost:3000`
 | `QDRANT_API_KEY` | Qdrant API key |
 | `ANTHROPIC_API_KEY` | Anthropic API key (for command bar) |
 | `ENCRYPTION_KEY` | Fernet key for encrypting stored source credentials |
-
-### Backend (optional)
-| Variable | Description |
-|----------|-------------|
 | `OPENAI_API_KEY` | OpenAI key for real embeddings (runs in mock mode without it) |
 | `GROQ_API_KEY` | Groq API key (alternative LLM) |
 | `NOTION_API_KEY` | Notion connector |
