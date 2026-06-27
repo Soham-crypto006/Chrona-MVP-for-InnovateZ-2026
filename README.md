@@ -31,10 +31,10 @@ Live Backend API: https://chrona-mvp-for-innovatez-2026.onrender.com
 | Backend | FastAPI (Python), SQLAlchemy async, Alembic |
 | Database | Supabase (PostgreSQL) |
 | Vector Store | Qdrant Cloud |
-| Cache | Redis (Upstash in production, local Homebrew in development) |
+| Cache | Redis (Upstash in production, local Homebrew in development |
 | LLM | Anthropic claude-haiku-4-5 (command bar query parsing) |
-| Auth | Clerk (configured, not required for demo) |
-| Embeddings | Mock mode (OpenAI integration exists in `services/embedder.py`, key intentionally unset — see Limitations) |
+| Auth | Clerk |
+| Embeddings | OpenAI integration exists in `services/embedder.py` |
 
 ## Project Structure
 
